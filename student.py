@@ -57,7 +57,7 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kristen(self):
-      for squre in range(5):
+      for squre in range(4):
         self.fwd()
         time.sleep(1)
         self.stop()
