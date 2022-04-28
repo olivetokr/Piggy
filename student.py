@@ -57,12 +57,13 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kristen(self):
-      self.fwd(1)
-      self.right(1)
-      self.fwd(1)
-      self.right(1)
-      time.sleep(2)
-      self.stop()
+      for squre in range(4):
+        self.fwd()
+        time.sleep(1)
+        self.stop()
+        self.right()
+        time.sleep(1)
+        self.stop()
       
     def dance(self):
         """A higher-ordered algorithm to make your robot dance"""
