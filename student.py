@@ -57,10 +57,10 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kristen(self):
-      self.fwd()
-      self.right()
-      self.fwd()
-      self.right()
+      self.fwd(1)
+      self.right(1)
+      self.fwd(1)
+      self.right(1)
       time.sleep(2)
       self.stop()
       
