@@ -67,14 +67,13 @@ class Piggy(PiggyParent):
       
     def dance(self):
         """A higher-ordered algorithm to make your robot dance"""
-
-      self.fwd()
-      time.sleep(1)
-      self.bwd()
-      time.sleep(1)
-      self.circle()
-      self.sleep(1)
-      self.stop(1)
+        self.fwd()
+        time.sleep(1)
+        self.bwd()
+        time.sleep(1)
+        self.circle()
+        self.sleep(1)
+        self.stop(1)
     def safe_to_dance(self):
         """ Does a 360 distance check and returns true if safe """
         pass
