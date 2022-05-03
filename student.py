@@ -57,7 +57,7 @@ class Piggy(PiggyParent):
     ****************
     '''
     def kristen(self):
-      for squre in range(4):
+      for square in range(4):
         self.fwd()
         time.sleep(1)
         self.stop()
@@ -69,11 +69,9 @@ class Piggy(PiggyParent):
         """A higher-ordered algorithm to make your robot dance"""
         self.fwd()
         time.sleep(1)
-        self.bwd()
-        time.sleep(1)
-        self.circle()
-        self.sleep(1)
-        self.stop(1)
+        self.stop()
+      for spin in range(4)
+        self.right()
     def safe_to_dance(self):
         """ Does a 360 distance check and returns true if safe """
         pass
